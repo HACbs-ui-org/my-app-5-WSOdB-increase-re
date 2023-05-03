@@ -26,7 +26,7 @@ spec:
         app.kubernetes.io/instance: partner-catalog-yoj5
     spec:
       containers:
-      - image: java-springboot-image:latest
+      - image: quay.io/stonesoupuicluster/burrzinga-hac-tenant/my-app-5/partner-catalog-yoj5@sha256:7dd8e1b06f08de1b986c04b390703fd69f0ff48d3e011e356c234e9c2de68c06
         name: my-java-springboot
         ports:
         - containerPort: 8081
